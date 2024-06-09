@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Euclide">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="4" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="19" y="20" width="997" height="443"/>
+    </constraints>
+    <properties>
+      <alignmentX value="0.0"/>
+      <alignmentY value="0.0"/>
+      <autoscrolls value="true"/>
+      <background color="-1"/>
+      <foreground color="-16777216"/>
+      <inheritsPopupMenu value="false"/>
+      <maximumSize width="1000" height="450"/>
+      <minimumSize width="850" height="350"/>
+      <preferredSize width="1000" height="450"/>
+    </properties>
+    <border type="none" title="Made by Stefano Zanoni &amp; Marco Zenoniani"/>
+    <children>
+      <component id="8aef8" class="javax.swing.JLabel" binding="Title_t">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false">
+            <preferred-size width="170" height="15"/>
+            <maximum-size width="160" height="15"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <foreground color="-16777216"/>
+          <text value="Inserire il primo numero"/>
+        </properties>
+      </component>
+      <scrollpane id="c9857" binding="scrollPane">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="2" indent="1" use-parent-layout="false">
+            <preferred-size width="350" height="140"/>
+            <maximum-size width="350" height="140"/>
+          </grid>
+        </constraints>
+        <properties>
+          <autoscrolls value="true"/>
+          <enabled value="true"/>
+          <opaque value="true"/>
+          <visible value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="fa954" class="javax.swing.JTextArea" binding="Inserimento_val1">
+            <constraints/>
+            <properties>
+              <autoscrolls value="true"/>
+              <background color="-2763300"/>
+              <caretColor color="-16777216"/>
+              <disabledTextColor color="-16777216"/>
+              <editable value="true"/>
+              <enabled value="true"/>
+              <foreground color="-16777216"/>
+              <lineWrap value="true"/>
+              <margin top="1" left="1" bottom="1" right="1"/>
+              <opaque value="true"/>
+              <text value=""/>
+              <wrapStyleWord value="true"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="a26b5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false">
+            <preferred-size width="180" height="143"/>
+            <maximum-size width="175" height="15"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <foreground color="-16777216"/>
+          <text value="Inserire il secondo numero"/>
+        </properties>
+      </component>
+      <scrollpane id="bb304" default-binding="true">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="2" indent="1" use-parent-layout="false">
+            <preferred-size width="350" height="140"/>
+            <maximum-size width="350" height="140"/>
+          </grid>
+        </constraints>
+        <properties>
+          <autoscrolls value="true"/>
+          <enabled value="true"/>
+          <opaque value="true"/>
+          <visible value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="3d2f8" class="javax.swing.JTextArea" binding="Inserimento_val2">
+            <constraints/>
+            <properties>
+              <autoscrolls value="true"/>
+              <background color="-2763300"/>
+              <caretColor color="-16777216"/>
+              <disabledTextColor color="-16777216"/>
+              <editable value="true"/>
+              <enabled value="true"/>
+              <foreground color="-16777216"/>
+              <lineWrap value="true"/>
+              <margin top="1" left="1" bottom="1" right="1"/>
+              <opaque value="true"/>
+              <text value=""/>
+              <wrapStyleWord value="true"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="1c7d5" binding="scrollPane1" default-binding="true">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="2" indent="1" use-parent-layout="false">
+            <preferred-size width="350" height="140"/>
+            <maximum-size width="350" height="140"/>
+          </grid>
+        </constraints>
+        <properties>
+          <autoscrolls value="true"/>
+          <enabled value="true"/>
+          <opaque value="true"/>
+          <visible value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="aa7db" class="javax.swing.JTextArea" binding="Risultato">
+            <constraints/>
+            <properties>
+              <autoscrolls value="true"/>
+              <background color="-2763300"/>
+              <caretColor color="-16777216"/>
+              <disabledTextColor color="-16777216"/>
+              <editable value="false"/>
+              <enabled value="true"/>
+              <foreground color="-16777216"/>
+              <lineWrap value="true"/>
+              <margin top="1" left="1" bottom="1" right="1"/>
+              <opaque value="true"/>
+              <text value=""/>
+              <wrapStyleWord value="true"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="ac2b3" class="javax.swing.JButton" binding="Reset">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="300" height="-1"/>
+            <maximum-size width="300" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16760566"/>
+          <foreground color="-1"/>
+          <label value="Reset"/>
+          <text value="Reset"/>
+        </properties>
+      </component>
+      <component id="9e560" class="javax.swing.JLabel" binding="Title_c">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="170" height="20"/>
+            <maximum-size width="200" height="15"/>
+          </grid>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="Ecco il risultato ed i vari processi"/>
+        </properties>
+      </component>
+      <component id="e74c3" class="javax.swing.JLabel" binding="Titolo">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="1" use-parent-layout="false">
+            <preferred-size width="300" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="18"/>
+          <foreground color="-65536"/>
+          <text value="Algoritmo di Euclide"/>
+        </properties>
+      </component>
+      <component id="96889" class="javax.swing.JButton" binding="Home">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16760566"/>
+          <foreground color="-1"/>
+          <label value="Home"/>
+          <text value="Home"/>
+        </properties>
+      </component>
+      <component id="9024d" class="javax.swing.JButton" binding="Calcola">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="151" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <actionCommand value="Invio"/>
+          <background color="-16760566"/>
+          <foreground color="-1"/>
+          <label value="Calcola"/>
+          <text value="Calcola"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
